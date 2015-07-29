@@ -15,10 +15,10 @@ public class Player {
 
     private void initPlayer() {
 
-        x = 0;
-        y = 0;
-        width = 10;
-        height = 10;
+        x = -4;
+        y = -4;
+        width = 8;
+        height = 8;
     }
 
     public int getX() {
@@ -38,15 +38,29 @@ public class Player {
     }
 
     public void move() {
-        x += xChange;
-        y += yChange;
+        if(x>-5 && x<=200) {
+            x += xChange;
+        }
+        else{
+            x = x < 0 ? -4 : 198;
+        }
+        if(y>-5 && y<=200) {
+            y += yChange;
+        }
+        else {
+            y = y <0 ?-4 : 198;
+        }
     }
 
     public void keyPressed(KeyEvent e) {
+        System.out.println(y);
+
+        xChange = 0;
+        yChange = 0;
 
         int key = e.getKeyCode();
 
-        if (key == KeyEvent.VK_LEFT && x > 0) {
+        if (key == KeyEvent.VK_LEFT) {
             xChange = -1;
             yChange = 0;
         }

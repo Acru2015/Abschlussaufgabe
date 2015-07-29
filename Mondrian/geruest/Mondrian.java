@@ -26,6 +26,7 @@ public class Mondrian extends JFrame {
 
         setSize(WIDTH, HEIGHT);
         setResizable(false);
+        pack();
 
         setTitle("Mondrian");
         setLocationRelativeTo(null);

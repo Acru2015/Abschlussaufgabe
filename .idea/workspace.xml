@@ -2,38 +2,749 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="588a802a-0968-4dd2-a5ce-d59494aa2aa3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slang/geruest/Test.java" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\dictionaries\Anton.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\encodings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\gradle.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\libraries\commons_io_2_4.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\libraries\hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\libraries\junit_4_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\libraries\system_rules_1_6_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\runConfigurations\Alles_überprüfen.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\scopes\scope_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Slang\geruest\Slang$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Slang\geruest\Slang$Actions.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Slang\geruest\Slang.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Slang\geruest\run.bat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Slang\geruest\run.sh" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Test\src\Main.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Test\src\commons-io-1.3.jar" afterPath="$PROJECT_DIR$/Slang/geruest/commons-io-1.3.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Test/Main.class" afterPath="$PROJECT_DIR$/out/production/Test/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Slang/geruest/SlangTester.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/diffutils_1_2_1.xml" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\.idea\libraries\commons_io_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.gitattributes" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\dictionaries\Anton.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\libraries\commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\libraries\hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\libraries\junit_4_11.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\libraries\system_rules_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\runConfigurations\Alles_überprüfen.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\Mondrian.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\geruest\Board.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\geruest\Enemy.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\geruest\Mondrian.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\geruest\Player.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\geruest\Polys.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\geruest\ReturnData.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Mondrian\mondrian.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\Slang.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\AtomScanner.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\AtomScanner.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\AtomValue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\IntegerValue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\IntegerValue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Lexer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Lexer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\LexerError.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\LexerError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\LexerException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\LexerException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Slang$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Slang$Actions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Slang.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Slang.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\SlangException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\SlangException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\SlangTester$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\SourcePosition.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\SourcePosition.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\StringValue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\StringValue.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Token$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Token.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Token.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Value.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\Value.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\run.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\geruest\run.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\00-dot-s-string.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\00-dot-s-string.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\00-dot-s-string.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\01-dot-s-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\01-dot-s-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\01-dot-s-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\02-dot-s-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\02-dot-s-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\02-dot-s-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\10-prin.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\10-prin.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\10-prin.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\11-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\11-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\11-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\12-prin-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\12-prin-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\12-prin-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\20-sub.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\20-sub.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\20-sub.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\21-add.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\21-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\21-add.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\22-add-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\22-add-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\22-add-multi.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\23-div.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\23-div.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\23-div.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\23-mul.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\23-mul.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\23-mul.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\24-mod.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\24-mod.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\24-mod.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\30-read-file.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\30-read-file.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\30-read-file.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\31-read-http.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\31-read-http.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\31-read-http.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\32-read-https.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\32-read-https.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\32-read-https.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\40-write.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\40-write.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\40-write.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\50-append.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\50-append.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\50-append.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\51-append-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\51-append-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\51-append-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\52-append-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\52-append-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\52-append-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\60-skip-to.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\60-skip-to.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\60-skip-to.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\61-skip-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\61-skip-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\61-skip-to-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\62-skip-to-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\62-skip-to-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\62-skip-to-multi.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\63-skip-n.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\63-skip-n.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\63-skip-n.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\64-skip-n-0.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\64-skip-n-0.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\64-skip-n-0.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\65-skip-n-100.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\65-skip-n-100.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\65-skip-n-100.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\66-skip-n-empty.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\66-skip-n-empty.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\66-skip-n-empty.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\67-skip-n-short.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\67-skip-n-short.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\67-skip-n-short.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\68-skip-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\68-skip-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\68-skip-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\70-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\70-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\70-trunc.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\71-trunc-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\71-trunc-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\71-trunc-zero.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\72-trunc-long.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\72-trunc-long.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\72-trunc-long.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\73-trunc-spaces.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\73-trunc-spaces.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\73-trunc-spaces.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\74-skip-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\74-skip-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\74-skip-trunc.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\76-copy-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\76-copy-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\76-copy-to-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\77-skip-trunc-copy.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\77-skip-trunc-copy.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\77-skip-trunc-copy.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\78-skip-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\78-skip-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\78-skip-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\79-trunc-copy-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\79-trunc-copy-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\79-trunc-copy-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\80-dup.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\80-dup.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\80-dup.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\81-pop.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\81-pop.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\81-pop.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\90-lexer-error-bracestring.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\90-lexer-error-bracestring.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\90-lexer-error-bracestring.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\90-lexer-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\90-lexer-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\90-lexer-error.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\91-parser-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\91-parser-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\91-parser-error.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\92-empty-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\92-empty-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\92-empty-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\93-div-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\93-div-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\93-div-zero.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\94-file-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\94-file-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\94-file-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\95-conversion.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\95-conversion.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\95-conversion.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\99-interactive\askn-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\99-interactive\http-read.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\99-interactive\orf-ticker.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\99-interactive\reddit.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\progs\99-interactive\time.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Slang\slang.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Test\Test.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Test\src\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Test\src\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\Test\src\commons-io-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\abschlussbeispiel.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\abschlussbeispiel.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\commons-io-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\lib\commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\lib\hamcrest-core-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\lib\junit-4.11.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\lib\system-rules-1.6.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\mondrian angabe\geruest\Board.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\mondrian angabe\geruest\Mondrian.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\mondrian angabe\mondrian.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Board$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Board$TAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Board.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Enemy.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Mondrian.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Player.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\Polys.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Mondrian\ReturnData.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\AtomScanner.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\AtomValue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\IntegerValue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Lexer.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\LexerError.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\LexerException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Slang$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Slang$Actions.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Slang.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\SlangException.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\SlangTester$1.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\SlangTester.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\SourcePosition.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\StringValue.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Token$Type.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Token.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\Value.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\00-dot-s-string.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\00-dot-s-string.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\00-dot-s-string.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\01-dot-s-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\01-dot-s-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\01-dot-s-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\02-dot-s-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\02-dot-s-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\02-dot-s-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\10-prin.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\10-prin.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\10-prin.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\11-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\11-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\11-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\12-prin-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\12-prin-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\12-prin-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\20-sub.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\20-sub.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\20-sub.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\21-add.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\21-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\21-add.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\22-add-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\22-add-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\22-add-multi.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\23-div.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\23-div.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\23-div.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\23-mul.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\23-mul.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\23-mul.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\24-mod.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\24-mod.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\24-mod.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\30-read-file.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\30-read-file.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\30-read-file.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\31-read-http.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\31-read-http.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\31-read-http.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\32-read-https.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\32-read-https.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\32-read-https.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\40-write.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\40-write.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\40-write.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\50-append.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\50-append.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\50-append.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\51-append-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\51-append-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\51-append-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\52-append-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\52-append-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\52-append-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\60-skip-to.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\60-skip-to.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\60-skip-to.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\61-skip-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\61-skip-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\61-skip-to-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\62-skip-to-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\62-skip-to-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\62-skip-to-multi.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\63-skip-n.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\63-skip-n.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\63-skip-n.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\64-skip-n-0.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\64-skip-n-0.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\64-skip-n-0.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\65-skip-n-100.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\65-skip-n-100.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\65-skip-n-100.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\66-skip-n-empty.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\66-skip-n-empty.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\66-skip-n-empty.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\67-skip-n-short.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\67-skip-n-short.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\67-skip-n-short.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\68-skip-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\68-skip-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\68-skip-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\70-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\70-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\70-trunc.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\71-trunc-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\71-trunc-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\71-trunc-zero.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\72-trunc-long.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\72-trunc-long.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\72-trunc-long.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\73-trunc-spaces.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\73-trunc-spaces.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\73-trunc-spaces.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\74-skip-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\74-skip-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\74-skip-trunc.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\76-copy-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\76-copy-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\76-copy-to-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\77-skip-trunc-copy.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\77-skip-trunc-copy.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\77-skip-trunc-copy.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\78-skip-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\78-skip-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\78-skip-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\79-trunc-copy-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\79-trunc-copy-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\79-trunc-copy-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\80-dup.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\80-dup.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\80-dup.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\81-pop.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\81-pop.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\81-pop.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\90-lexer-error-bracestring.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\90-lexer-error-bracestring.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\90-lexer-error-bracestring.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\90-lexer-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\90-lexer-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\90-lexer-error.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\91-parser-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\91-parser-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\91-parser-error.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\92-empty-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\92-empty-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\92-empty-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\93-div-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\93-div-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\93-div-zero.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\94-file-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\94-file-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\94-file-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\95-conversion.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\95-conversion.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\95-conversion.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\99-interactive\askn-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\99-interactive\http-read.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\99-interactive\orf-ticker.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\99-interactive\reddit.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Slang\progs\99-interactive\time.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Test\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\out\production\Test\commons-io-1.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\00-dot-s-string.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\00-dot-s-string.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\00-dot-s-string.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\01-dot-s-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\01-dot-s-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\01-dot-s-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\02-dot-s-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\02-dot-s-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\02-dot-s-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\10-prin.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\10-prin.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\10-prin.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\11-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\11-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\11-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\12-prin-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\12-prin-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\12-prin-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\20-sub.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\20-sub.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\20-sub.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\21-add.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\21-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\21-add.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\22-add-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\22-add-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\22-add-multi.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\23-div.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\23-div.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\23-div.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\23-mul.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\23-mul.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\23-mul.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\24-mod.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\24-mod.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\24-mod.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\30-read-file.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\30-read-file.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\30-read-file.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\31-read-http.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\31-read-http.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\31-read-http.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\32-read-https.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\32-read-https.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\32-read-https.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\40-write.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\40-write.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\40-write.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\50-append.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\50-append.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\50-append.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\51-append-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\51-append-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\51-append-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\52-append-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\52-append-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\52-append-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\60-skip-to.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\60-skip-to.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\60-skip-to.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\61-skip-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\61-skip-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\61-skip-to-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\62-skip-to-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\62-skip-to-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\62-skip-to-multi.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\63-skip-n.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\63-skip-n.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\63-skip-n.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\64-skip-n-0.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\64-skip-n-0.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\64-skip-n-0.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\65-skip-n-100.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\65-skip-n-100.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\65-skip-n-100.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\66-skip-n-empty.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\66-skip-n-empty.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\66-skip-n-empty.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\67-skip-n-short.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\67-skip-n-short.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\67-skip-n-short.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\68-skip-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\68-skip-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\68-skip-mixed.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\70-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\70-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\70-trunc.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\71-trunc-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\71-trunc-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\71-trunc-zero.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\72-trunc-long.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\72-trunc-long.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\72-trunc-long.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\73-trunc-spaces.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\73-trunc-spaces.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\73-trunc-spaces.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\74-skip-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\74-skip-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\74-skip-trunc.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\76-copy-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\76-copy-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\76-copy-to-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\77-skip-trunc-copy.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\77-skip-trunc-copy.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\77-skip-trunc-copy.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\78-skip-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\78-skip-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\78-skip-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\79-trunc-copy-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\79-trunc-copy-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\79-trunc-copy-integer.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\80-dup.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\80-dup.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\80-dup.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\81-pop.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\81-pop.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\81-pop.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\90-lexer-error-bracestring.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\90-lexer-error-bracestring.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\90-lexer-error-bracestring.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\90-lexer-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\90-lexer-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\90-lexer-error.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\91-parser-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\91-parser-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\91-parser-error.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\92-empty-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\92-empty-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\92-empty-print.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\93-div-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\93-div-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\93-div-zero.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\94-file-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\94-file-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\94-file-not-found.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\95-conversion.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\95-conversion.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\95-conversion.test" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\99-interactive\askn-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\99-interactive\http-read.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\99-interactive\orf-ticker.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\99-interactive\reddit.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\progs\99-interactive\time.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\AtomScanner.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\Lexer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\LexerError.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\LexerException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\Slang.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\SlangException.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\SourcePosition.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\Token.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\geruest\Value.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\00-dot-s-string.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\00-dot-s-string.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\01-dot-s-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\01-dot-s-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\02-dot-s-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\02-dot-s-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\10-prin.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\10-prin.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\11-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\11-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\12-prin-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\12-prin-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\20-sub.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\20-sub.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\21-add.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\21-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\22-add-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\22-add-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\23-div.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\23-div.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\23-mul.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\23-mul.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\24-mod.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\24-mod.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\30-read-file.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\30-read-file.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\31-read-http.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\31-read-http.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\32-read-https.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\32-read-https.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\40-write.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\40-write.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\50-append.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\50-append.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\51-append-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\51-append-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\52-append-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\52-append-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\60-skip-to.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\60-skip-to.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\61-skip-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\61-skip-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\62-skip-to-multi.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\62-skip-to-multi.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\63-skip-n.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\63-skip-n.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\64-skip-n-0.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\64-skip-n-0.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\65-skip-n-100.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\65-skip-n-100.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\66-skip-n-empty.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\66-skip-n-empty.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\67-skip-n-short.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\67-skip-n-short.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\68-skip-mixed.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\68-skip-mixed.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\70-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\70-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\71-trunc-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\71-trunc-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\72-trunc-long.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\72-trunc-long.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\73-trunc-spaces.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\73-trunc-spaces.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\74-skip-trunc.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\74-skip-trunc.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\75-copy-to.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\76-copy-to-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\76-copy-to-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\77-skip-trunc-copy.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\77-skip-trunc-copy.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\78-skip-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\78-skip-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\79-trunc-copy-integer.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\79-trunc-copy-integer.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\80-dup.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\80-dup.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\81-pop.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\81-pop.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\90-lexer-error-bracestring.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\90-lexer-error-bracestring.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\90-lexer-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\90-lexer-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\91-parser-error.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\91-parser-error.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\92-empty-print.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\92-empty-print.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\93-div-zero.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\93-div-zero.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\94-file-not-found.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\94-file-not-found.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\95-conversion.output" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\95-conversion.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\99-interactive\askn-add.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\99-interactive\http-read.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\99-interactive\orf-ticker.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\99-interactive\reddit.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\progs\99-interactive\time.slang" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\slang angabe\slang.pdf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\00-dot-s-string.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\01-dot-s-integer.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\02-dot-s-mixed.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\10-prin.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\11-print.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\12-prin-print.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\20-sub.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\21-add.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\22-add-multi.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\23-div.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\23-mul.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\24-mod.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\30-read-file.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\31-read-http.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\32-read-https.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\40-write.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\50-append.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\51-append-integer.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\52-append-mixed.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\60-skip-to.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\61-skip-to-not-found.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\62-skip-to-multi.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\63-skip-n.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\64-skip-n-0.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\65-skip-n-100.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\66-skip-n-empty.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\67-skip-n-short.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\68-skip-mixed.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\70-trunc.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\71-trunc-zero.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\72-trunc-long.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\73-trunc-spaces.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\74-skip-trunc.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\76-copy-to-not-found.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\77-skip-trunc-copy.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\78-skip-integer.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\79-trunc-copy-integer.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\80-dup.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\81-pop.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\90-lexer-error-bracestring.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\90-lexer-error.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\91-parser-error.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\92-empty-print.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\93-div-zero.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\94-file-not-found.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Abgabe\Abschlussaufgabe\tested\95-conversion.tested" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\Slang\geruest\Test.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\out\production\Slang\Test.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mondrian/Board$TAdapter.class" afterPath="$PROJECT_DIR$/out/production/Mondrian/Board$TAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mondrian/Board.class" afterPath="$PROJECT_DIR$/out/production/Mondrian/Board.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mondrian/Enemy.class" afterPath="$PROJECT_DIR$/out/production/Mondrian/Enemy.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mondrian/Mondrian.class" afterPath="$PROJECT_DIR$/out/production/Mondrian/Mondrian.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Mondrian/Player.class" afterPath="$PROJECT_DIR$/out/production/Mondrian/Player.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Slang/Slang$1.class" afterPath="$PROJECT_DIR$/out/production/Slang/Slang$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Slang/Slang$Actions.class" afterPath="$PROJECT_DIR$/out/production/Slang/Slang$Actions.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Slang/Slang.class" afterPath="$PROJECT_DIR$/out/production/Slang/Slang.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slang/progs/32-read-https.output" afterPath="$PROJECT_DIR$/Slang/progs/32-read-https.output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/slang angabe/progs/32-read-https.output" afterPath="$PROJECT_DIR$/slang angabe/progs/32-read-https.output" />
+      <change type="MODIFICATION" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\out\production\Slang\SlangTester$1.class" afterPath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\out\production\Slang\SlangTester$1.class" />
+      <change type="MODIFICATION" beforePath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\out\production\Slang\SlangTester.class" afterPath="C:\Users\Anton\Documents\TUWien\PK\SS2015\Abschlussaufgabe\out\production\Slang\SlangTester.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/00-dot-s-string.test" afterPath="$PROJECT_DIR$/progs/00-dot-s-string.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/01-dot-s-integer.test" afterPath="$PROJECT_DIR$/progs/01-dot-s-integer.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/02-dot-s-mixed.test" afterPath="$PROJECT_DIR$/progs/02-dot-s-mixed.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/10-prin.test" afterPath="$PROJECT_DIR$/progs/10-prin.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/11-print.test" afterPath="$PROJECT_DIR$/progs/11-print.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/12-prin-print.test" afterPath="$PROJECT_DIR$/progs/12-prin-print.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/20-sub.test" afterPath="$PROJECT_DIR$/progs/20-sub.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/21-add.test" afterPath="$PROJECT_DIR$/progs/21-add.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/22-add-multi.test" afterPath="$PROJECT_DIR$/progs/22-add-multi.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/23-div.test" afterPath="$PROJECT_DIR$/progs/23-div.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/23-mul.test" afterPath="$PROJECT_DIR$/progs/23-mul.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/24-mod.test" afterPath="$PROJECT_DIR$/progs/24-mod.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/30-read-file.test" afterPath="$PROJECT_DIR$/progs/30-read-file.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/31-read-http.test" afterPath="$PROJECT_DIR$/progs/31-read-http.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/32-read-https.test" afterPath="$PROJECT_DIR$/progs/32-read-https.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/40-write.test" afterPath="$PROJECT_DIR$/progs/40-write.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/50-append.test" afterPath="$PROJECT_DIR$/progs/50-append.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/51-append-integer.test" afterPath="$PROJECT_DIR$/progs/51-append-integer.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/52-append-mixed.test" afterPath="$PROJECT_DIR$/progs/52-append-mixed.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/60-skip-to.test" afterPath="$PROJECT_DIR$/progs/60-skip-to.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/61-skip-to-not-found.test" afterPath="$PROJECT_DIR$/progs/61-skip-to-not-found.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/62-skip-to-multi.test" afterPath="$PROJECT_DIR$/progs/62-skip-to-multi.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/63-skip-n.test" afterPath="$PROJECT_DIR$/progs/63-skip-n.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/64-skip-n-0.test" afterPath="$PROJECT_DIR$/progs/64-skip-n-0.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/66-skip-n-empty.test" afterPath="$PROJECT_DIR$/progs/66-skip-n-empty.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/67-skip-n-short.test" afterPath="$PROJECT_DIR$/progs/67-skip-n-short.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/68-skip-mixed.test" afterPath="$PROJECT_DIR$/progs/68-skip-mixed.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/70-trunc.test" afterPath="$PROJECT_DIR$/progs/70-trunc.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/71-trunc-zero.test" afterPath="$PROJECT_DIR$/progs/71-trunc-zero.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/73-trunc-spaces.test" afterPath="$PROJECT_DIR$/progs/73-trunc-spaces.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/76-copy-to-not-found.test" afterPath="$PROJECT_DIR$/progs/76-copy-to-not-found.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/78-skip-integer.test" afterPath="$PROJECT_DIR$/progs/78-skip-integer.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/79-trunc-copy-integer.test" afterPath="$PROJECT_DIR$/progs/79-trunc-copy-integer.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/80-dup.test" afterPath="$PROJECT_DIR$/progs/80-dup.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/81-pop.test" afterPath="$PROJECT_DIR$/progs/81-pop.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/91-parser-error.test" afterPath="$PROJECT_DIR$/progs/91-parser-error.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/progs/95-conversion.test" afterPath="$PROJECT_DIR$/progs/95-conversion.test" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mondrian/geruest/Board.java" afterPath="$PROJECT_DIR$/Mondrian/geruest/Board.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mondrian/geruest/Enemy.java" afterPath="$PROJECT_DIR$/Mondrian/geruest/Enemy.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mondrian/geruest/Mondrian.java" afterPath="$PROJECT_DIR$/Mondrian/geruest/Mondrian.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mondrian/geruest/Player.java" afterPath="$PROJECT_DIR$/Mondrian/geruest/Player.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Mondrian/geruest/ReturnData.java" afterPath="$PROJECT_DIR$/Mondrian/geruest/ReturnData.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slang/Slang.iml" afterPath="$PROJECT_DIR$/Slang/Slang.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Slang/geruest/Slang.java" afterPath="$PROJECT_DIR$/Slang/geruest/Slang.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Abschlussaufgabe.iws" />
@@ -59,28 +770,42 @@
       <file leaf-file-name="Slang.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Slang/geruest/Slang.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11486486">
-              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.6020067">
+              <caret line="211" column="34" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SlangTester.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slang/geruest/SlangTester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="24" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LexerError.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slang/geruest/LexerError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Value.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Slang/geruest/Value.java">
+      <file leaf-file-name="Lexer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slang/geruest/Lexer.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Slang/geruest/StringValue.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -96,29 +821,94 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AtomValue.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Slang/geruest/AtomValue.java">
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Slang/geruest/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="49" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="49" />
+              <caret line="800" column="0" selection-start-line="800" selection-start-column="0" selection-end-line="800" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#0#39347#0" expanded="false" />
+                <element signature="e#8008#8009#0" expanded="false" />
+                <element signature="e#8036#8037#0" expanded="false" />
+                <element signature="e#8248#8249#0" expanded="false" />
+                <element signature="e#8275#8276#0" expanded="false" />
+                <element signature="e#8748#8749#0" expanded="false" />
+                <element signature="e#8787#8788#0" expanded="false" />
+                <element signature="e#8938#8939#0" expanded="false" />
+                <element signature="e#8965#8966#0" expanded="false" />
+                <element signature="e#11209#11210#0" expanded="false" />
+                <element signature="e#11247#11248#0" expanded="false" />
+                <element signature="e#15878#15879#0" expanded="false" />
+                <element signature="e#15927#15928#0" expanded="false" />
+                <element signature="e#16099#16100#0" expanded="false" />
+                <element signature="e#16149#16150#0" expanded="false" />
+                <element signature="e#16416#16417#0" expanded="false" />
+                <element signature="e#16470#16471#0" expanded="false" />
+                <element signature="e#19921#19922#0" expanded="false" />
+                <element signature="e#19954#19955#0" expanded="false" />
+                <element signature="e#20484#20485#0" expanded="false" />
+                <element signature="e#20520#20521#0" expanded="false" />
+                <element signature="e#20770#20771#0" expanded="false" />
+                <element signature="e#20799#20800#0" expanded="false" />
+                <element signature="e#23214#23215#0" expanded="false" />
+                <element signature="e#23241#23242#0" expanded="false" />
+                <element signature="e#24161#24162#0" expanded="false" />
+                <element signature="e#24193#24194#0" expanded="false" />
+                <element signature="e#26756#26757#0" expanded="false" />
+                <element signature="e#26803#26804#0" expanded="false" />
+                <element signature="e#27125#27126#0" expanded="false" />
+                <element signature="e#27169#27170#0" expanded="false" />
+                <element signature="e#27499#27500#0" expanded="false" />
+                <element signature="e#27539#27540#0" expanded="false" />
+                <element signature="e#27577#27578#0" expanded="false" />
+                <element signature="e#27621#27622#0" expanded="false" />
+                <element signature="e#29442#29443#0" expanded="false" />
+                <element signature="e#29489#29490#0" expanded="false" />
+                <element signature="e#29728#29729#0" expanded="false" />
+                <element signature="e#29776#29777#0" expanded="false" />
+                <element signature="e#29802#29803#0" expanded="false" />
+                <element signature="e#29847#29848#0" expanded="false" />
+                <element signature="e#29878#29879#0" expanded="false" />
+                <element signature="e#29914#29915#0" expanded="false" />
+                <element signature="e#36042#36043#0" expanded="false" />
+                <element signature="e#36098#36099#0" expanded="false" />
+                <element signature="e#39243#39244#0" expanded="false" />
+                <element signature="e#39336#39337#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="StringValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slang/geruest/StringValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <folding>
+                <element signature="e#339#340#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AtomScanner.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Slang/geruest/AtomScanner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -131,10 +921,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Slang/geruest/Slang.java" />
         <option value="$PROJECT_DIR$/Test/src/Main.java" />
         <option value="$PROJECT_DIR$/Test/src/Test.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/Enemy.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/Mondrian.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/Player.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/Board.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/Polys.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/ReturnData.java" />
         <option value="$PROJECT_DIR$/Slang/geruest/Test.java" />
+        <option value="$PROJECT_DIR$/Mondrian/geruest/MondrianTest.java" />
+        <option value="$PROJECT_DIR$/Slang/geruest/SlangTester.java" />
+        <option value="$PROJECT_DIR$/Slang/geruest/Slang.java" />
       </list>
     </option>
   </component>
@@ -252,6 +1050,9 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.116027534" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="findjar.last.used.dir" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -261,7 +1062,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.SlangTester">
     <configuration default="false" name="Slang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Slang" />
@@ -280,6 +1081,36 @@
     <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Slang" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Mondrian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Mondrian" />
+      <option name="VM_PARAMETERS" value="-Xss40m" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Mondrian" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SlangTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="SlangTester" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -439,14 +1270,18 @@
       <listeners />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Slang" />
       <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Mondrian" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SlangTester" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Slang" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.SlangTester" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Mondrian" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Slang" />
       </list>
     </recent_temporary>
   </component>
@@ -468,11 +1303,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5021322" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -494,7 +1329,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -503,18 +1338,198 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Slang/geruest/StringValue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Slang/geruest/AtomValue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#123#124#0" expanded="false" />
+            <element signature="e#150#151#0" expanded="false" />
+            <element signature="e#188#189#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/Value.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mondrian/geruest/Mondrian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mondrian/geruest/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mondrian/geruest/Polys.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="55" selection-start-line="30" selection-start-column="55" selection-end-line="30" selection-end-column="55" />
+          <folding>
+            <element signature="e#501#502#0" expanded="false" />
+            <element signature="e#535#536#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mondrian/geruest/ReturnData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mondrian/geruest/Enemy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#232#233#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#395#396#0" expanded="false" />
+            <element signature="e#420#421#0" expanded="false" />
+            <element signature="e#444#445#0" expanded="false" />
+            <element signature="e#473#474#0" expanded="false" />
+            <element signature="e#501#502#0" expanded="false" />
+            <element signature="e#531#532#0" expanded="false" />
+            <element signature="e#560#561#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mondrian/geruest/Board.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.7297298">
+          <caret line="175" column="37" selection-start-line="175" selection-start-column="37" selection-end-line="175" selection-end-column="37" />
+          <folding>
+            <element signature="e#1898#1899#0" expanded="false" />
+            <element signature="e#1925#1926#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/AtomScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/jre/lib/rt.jar!/sun/nio/fs/WindowsException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5061947">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_45/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="800" column="0" selection-start-line="800" selection-start-column="0" selection-end-line="800" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39347#0" expanded="false" />
+            <element signature="e#8008#8009#0" expanded="false" />
+            <element signature="e#8036#8037#0" expanded="false" />
+            <element signature="e#8248#8249#0" expanded="false" />
+            <element signature="e#8275#8276#0" expanded="false" />
+            <element signature="e#8748#8749#0" expanded="false" />
+            <element signature="e#8787#8788#0" expanded="false" />
+            <element signature="e#8938#8939#0" expanded="false" />
+            <element signature="e#8965#8966#0" expanded="false" />
+            <element signature="e#11209#11210#0" expanded="false" />
+            <element signature="e#11247#11248#0" expanded="false" />
+            <element signature="e#15878#15879#0" expanded="false" />
+            <element signature="e#15927#15928#0" expanded="false" />
+            <element signature="e#16099#16100#0" expanded="false" />
+            <element signature="e#16149#16150#0" expanded="false" />
+            <element signature="e#16416#16417#0" expanded="false" />
+            <element signature="e#16470#16471#0" expanded="false" />
+            <element signature="e#19921#19922#0" expanded="false" />
+            <element signature="e#19954#19955#0" expanded="false" />
+            <element signature="e#20484#20485#0" expanded="false" />
+            <element signature="e#20520#20521#0" expanded="false" />
+            <element signature="e#20770#20771#0" expanded="false" />
+            <element signature="e#20799#20800#0" expanded="false" />
+            <element signature="e#23214#23215#0" expanded="false" />
+            <element signature="e#23241#23242#0" expanded="false" />
+            <element signature="e#24161#24162#0" expanded="false" />
+            <element signature="e#24193#24194#0" expanded="false" />
+            <element signature="e#26756#26757#0" expanded="false" />
+            <element signature="e#26803#26804#0" expanded="false" />
+            <element signature="e#27125#27126#0" expanded="false" />
+            <element signature="e#27169#27170#0" expanded="false" />
+            <element signature="e#27499#27500#0" expanded="false" />
+            <element signature="e#27539#27540#0" expanded="false" />
+            <element signature="e#27577#27578#0" expanded="false" />
+            <element signature="e#27621#27622#0" expanded="false" />
+            <element signature="e#29442#29443#0" expanded="false" />
+            <element signature="e#29489#29490#0" expanded="false" />
+            <element signature="e#29728#29729#0" expanded="false" />
+            <element signature="e#29776#29777#0" expanded="false" />
+            <element signature="e#29802#29803#0" expanded="false" />
+            <element signature="e#29847#29848#0" expanded="false" />
+            <element signature="e#29878#29879#0" expanded="false" />
+            <element signature="e#29914#29915#0" expanded="false" />
+            <element signature="e#36042#36043#0" expanded="false" />
+            <element signature="e#36098#36099#0" expanded="false" />
+            <element signature="e#39243#39244#0" expanded="false" />
+            <element signature="e#39336#39337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/StringValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#339#340#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/SlangTester.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/LexerError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/Lexer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -527,29 +1542,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Slang/geruest/Value.java">
+    <entry file="file://$PROJECT_DIR$/Slang/geruest/Slang.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slang/geruest/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="49" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.6020067">
+          <caret line="211" column="34" selection-start-line="211" selection-start-column="34" selection-end-line="211" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Slang/geruest/Slang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11486486">
-          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,7 +1628,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Abschlussaufgabe</last-edited>
+          <last-edited>commons-io-1.31</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

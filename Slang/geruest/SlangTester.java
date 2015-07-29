@@ -1,28 +1,57 @@
+import org.apache.commons.lang.StringUtils;
+
 import javax.swing.*;
 import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
-import java.nio.file.Files;
-import java.nio.file.NoSuchFileException;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
 import java.util.Deque;
 import java.util.LinkedList;
 import java.util.NoSuchElementException;
 import java.util.zip.GZIPInputStream;
 
-public class Slang {
+public class SlangTester {
 
     private static Deque<Value> stack = new LinkedList<>();
+    private static PrintWriter printWriter = null;
+    private static Path currentPath;
+
 
     public static void main(String[] args) throws IOException {
-        AtomScanner sc = null;
-        try {
-            sc = new AtomScanner(System.in);
-        } catch (LexerException ex) {
-            System.err.println(ex.getMessage());
+        Path dir = Paths.get("progs");
+        DirectoryStream<Path> files = Files.newDirectoryStream(dir);
+        //System.out.println(dir.toAbsolutePath().toString());
+        for (Path f : files) {
+            String ext = f.toString().substring(f.toString().length() - 5);
+            if (ext.equals("slang")) {
+                System.out.println(f.getFileName());
+                test(f);
+                stack.clear();
+                printWriter = null;
+            }
+            //compare(f);
         }
-        if (sc != null) {
+    }
+
+    private static void test(Path f) {
+        currentPath = f;
+        String testPath = f.toString().substring(0, f.toString().length() - 5) + "test";
+        AtomScanner sc = null;
+
+        try {
+            printWriter = new PrintWriter(testPath);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+        try {
+            sc = new AtomScanner(new FileInputStream(f.toFile()));
+        } catch (LexerException ex) {
+            System.out.println(ex);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        if (sc != null && printWriter != null) {
             while (sc.hasNext()) {
                 if (sc.hasNextString()) {
                     Value helper = new StringValue(sc.nextString());
@@ -31,12 +60,52 @@ public class Slang {
                     Value helper = new IntegerValue(sc.nextInteger());
                     stack.push(helper);
                 } else if (sc.hasNextAtom()) {
-                    execute(sc.nextAtom());
+                    try {
+                        execute(sc.nextAtom());
+                    } catch (IOException e) {
+                        e.printStackTrace();
+                    }
                 } else {
-                    System.err.println("UNKNOWN: " + sc.next());
+                    printWriter.println("UNKNOWN: " + sc.next());
+                    System.out.println();
                 }
             }
         }
+        printWriter.close();
+    }
+
+    public static void compare(Path f) throws IOException {
+        //System.out.println("Starting comparisons" + f.getFileName());
+        String ext = f.toString().substring(f.toString().length() - 6);
+        //System.out.println(ext);
+
+        if (ext.equals("output")) {
+            String testPath = f.toString().substring(0, f.toString().length() - 6) + "test";       //get path of output
+            Path test = Paths.get(testPath);
+            fileEquals(f, test);
+        }
+        //System.out.println("Finished comparisons" + f.getFileName());
+    }
+
+    private static boolean fileEquals(Path p, Path q) throws IOException {
+        String contentP = new String(Files.readAllBytes(p));                    //turn into string then compare, no idea whether best practice
+
+        String contentQ = new String(Files.readAllBytes(q));
+
+
+        boolean equal = contentP.equals(contentQ);
+        if (!equal) {
+            System.out.println("Not Equal:" + p.getFileName());
+            System.out.println("Should be:");
+            System.out.println(contentP);
+            System.out.println("Output:");
+            System.out.println(contentQ);
+            System.out.println("Difference:");
+            System.out.println(StringUtils.difference(contentP, contentQ));
+        } else {
+            System.out.println("Equal:" + p.getFileName());
+        }
+        return equal;
     }
 
     private static void execute(String atom) throws IOException {
@@ -44,11 +113,11 @@ public class Slang {
             Value helperValue;
 
             if (atom.equals(".s")) {
-                System.out.println("--Stack:");
+                printWriter.println("--Stack:");
                 for (Value v : stack) {
-                    System.out.println(v.toS());
+                    printWriter.println(v.toS());
                 }
-                System.out.println("--bottom");
+                printWriter.println("--bottom");
                 return;
             }
 
@@ -100,11 +169,11 @@ public class Slang {
             switch (action) {
                 case prin:
                     helperValue = stack.pop();
-                    System.out.print(helperValue.toS());
+                    printWriter.print(helperValue.toS());
                     break;
                 case print:
                     helperValue = stack.pop();
-                    System.out.println(helperValue.toS());
+                    printWriter.println(helperValue.toS());
                     break;
                 case add: {
                     int helper0 = stack.pop().toI();
@@ -209,7 +278,7 @@ public class Slang {
                     break;
             }
         } catch (IndexOutOfBoundsException | NullPointerException | NoSuchElementException | IllegalArgumentException | LexerError | NoSuchFileException e) {
-            System.out.println(e);
+            System.out.println(currentPath.getFileName().toString() + ": " + e);
         }
     }
 
@@ -234,6 +303,6 @@ public class Slang {
     }
 
     private enum Actions {
-        prin, print, add, sub, div, mul, mod, read, write, ask, askn, append, trunc, dup, pop
+        prin, print, add, sub, div, mul, mod, read, write, ask, askn, append, trunc, dup, pop;
     }
 }

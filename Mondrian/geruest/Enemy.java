@@ -1,3 +1,5 @@
+import java.awt.*;
+
 public class Enemy {
 
     private int xChange = 1;
@@ -15,8 +17,8 @@ public class Enemy {
 
         x = 100;
         y = 100;
-        width = 13;
-        height = 13;
+        width = 12;
+        height = 12;
     }
 
     public int getX() {
@@ -40,14 +42,14 @@ public class Enemy {
     //is called in actionPerformed()
     //enemy can´t move in filled area.
 
-    public void move() {
+    public void move(boolean[][] allpoints) {
         //if the enemy hits the upper border OR the lower border OR reaches an already filled area
         //+enemySize/2 // || new Board().isFilled(x,y)
-        if(y==0 || y==200) {
+        if(y==0 || y==193 || allpoints[x][y] || allpoints[x+6][y] || allpoints[x][y+6] ||  allpoints[x+6][y+6]) {
             yChange *= -1; //invert its direction
         }
         //...left OR right...
-        if(x==0 || x==200) {
+        if(x==0 || x==193 || allpoints[x][y] || allpoints[x+6][y] || allpoints[x][y+6] ||  allpoints[x+6][y+6]) {
             xChange *= -1; //invert its direction
         }
 
@@ -55,34 +57,25 @@ public class Enemy {
         x += xChange;
         y += yChange;
 
-        /*
-        //player is to the left and above the enemy.
-        if(direction<0){
-            if(x<enemyX && y<enemyY && enemyX>0 && enemyY>0 && enemyX<WIDTH-enemySize && enemyY<HEIGHT-enemySize){
-                enemyX--;
-                enemyY--;
-                repaint();
-            }
-            else if(x<enemyX && y>enemyY && enemyX>0 && enemyY>0 && enemyX<WIDTH-enemySize && enemyY<HEIGHT-enemySize){
-                enemyX--;
-                enemyY++;
-                repaint();
-            }
-            else if(x>enemyX && y<enemyY && enemyX>0 && enemyY>0 && enemyX<WIDTH-enemySize && enemyY<HEIGHT-enemySize){
-                enemyX++;
-                enemyY--;
-                repaint();
-            }
-            else if(x>enemyX && y>enemyY && enemyX>0 && enemyY>0 && enemyX<WIDTH-enemySize && enemyY<HEIGHT-enemySize){
-                enemyX++;
-                enemyY++;
-                repaint();
-            }
+    }
+
+
+    //changes direction to the position of the player in order to make the game harder.
+    public void kill(Point playerposition){
+
+        if(playerposition.x < x){
+            xChange = -1;
+        }
+        else if(playerposition.x > x){
+            xChange = 1;
+        }
+        if(playerposition.y < y){
+            yChange = -1;
+        }
+        if(playerposition.y > y){
+            yChange = 1;
         }
 
+        return;
     }
-*/
-    }
-
-
 }
