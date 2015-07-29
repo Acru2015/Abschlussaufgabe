@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Mondrian/Mondrian.iml" filepath="$PROJECT_DIR$/Mondrian/Mondrian.iml" />
       <module fileurl="file://$PROJECT_DIR$/Slang/Slang.iml" filepath="$PROJECT_DIR$/Slang/Slang.iml" />
       <module fileurl="file://$PROJECT_DIR$/Test/Test.iml" filepath="$PROJECT_DIR$/Test/Test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mondrian angabe/mondrian angabe.iml" filepath="$PROJECT_DIR$/mondrian angabe/mondrian angabe.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slang angabe/slang angabe.iml" filepath="$PROJECT_DIR$/slang angabe/slang angabe.iml" />
     </modules>
   </component>
 </project>

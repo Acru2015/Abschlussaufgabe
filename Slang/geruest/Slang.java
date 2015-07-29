@@ -43,9 +43,11 @@ public class Slang {
 
     private static void execute(String atom) throws IOException {
         if (atom.equals(".s")) {
+            System.out.println("--Stack:");
             for (Value v : stack) {
-                System.out.println(v);
+                System.out.println(v.toS());
             }
+            System.out.println("--bottom");
             return;
         }
         if (atom.equals("skip-to")) {
