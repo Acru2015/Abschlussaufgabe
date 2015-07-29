@@ -1,7 +1,5 @@
 import javax.swing.*;
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
+import java.io.*;
 import java.net.URL;
 import java.net.URLConnection;
 import java.nio.file.Files;
@@ -49,12 +47,35 @@ public class Slang {
             return;
         }
         if (atom.equals("skip-to")) {
+            String helper0 = stack.pop().toS();
+            String helper1 = stack.pop().toS();
+
+            if(helper0.toLowerCase().contains(helper1.toLowerCase())){
+                Value result = new StringValue(helper0.substring(0, helper0.length()-helper1.length()));
+                stack.push(result);
+            }
+            else {
+                stack.push(new StringValue(""));
+            }
             return;
         }
         if (atom.equals("skip-n")) {
+            String helper0 = stack.pop().toS();
+            int n = stack.pop().toI();
+            Value result = new StringValue(helper0.substring(n, helper0.length()));
+            stack.push(result);
             return;
         }
         if (atom.equals("copy-to")) {
+            String helper0 = stack.pop().toS();
+            String helper1 = stack.pop().toS();
+            if(helper0.toLowerCase().contains(helper1.toLowerCase())){
+                Value result = new StringValue(helper0.substring(0, helper0.indexOf(helper1)));
+                stack.push(result);
+            }
+            else {
+                stack.push(new StringValue(""));
+            }
             return;
         }
         //System.out.println("Atom: " + atom);
@@ -76,7 +97,14 @@ public class Slang {
             case sub: {
                 int helper0 = stack.pop().toI();
                 int helper1 = stack.pop().toI();
-                Value erg = new IntegerValue(helper0 + helper1);
+                Value erg = new IntegerValue(helper0 - helper1);
+                stack.push(erg);
+            }
+            break;
+            case mul: {
+                int helper0 = stack.pop().toI();
+                int helper1 = stack.pop().toI();
+                Value erg = new IntegerValue(helper0 * helper1);
                 stack.push(erg);
             }
             break;
@@ -107,7 +135,26 @@ public class Slang {
                 stack.push(contVal);
             }
             break;
-            case write:
+            case write:{
+                String dest = stack.pop().toS();
+                String string = stack.pop().toS();
+                //Path file = Paths.get(dest);
+                try {
+                    BufferedWriter out = null;
+                    try {
+                        out = new BufferedWriter(new FileWriter(dest, false));
+                        out.write(string);
+                    }
+                    finally {
+                        if (out != null) {
+                            out.close();
+                        }
+                    }
+                }
+                catch(IOException ex) {
+                    System.err.println("I/O Error: " + ex.getMessage());
+                }
+            }
                 break;
             case ask: {
                 String entered = JOptionPane.showInputDialog("Yo, gimme a String to crunch!");
@@ -126,8 +173,14 @@ public class Slang {
                 stack.push(result);
             }
             break;
-            case trunc:
-                break;
+            case trunc:{
+                String helper = stack.pop().toS();
+                int n = stack.pop().toI();
+                stack.pop();
+                Value result = new StringValue(helper.substring(0, n));
+                stack.push(result);
+            }
+            break;
             case dup: {
                 Value helper = stack.pop();
                 stack.push(helper);
@@ -161,6 +214,6 @@ public class Slang {
     }
 
     private enum Actions {
-        prin, print, add, sub, div, mod, read, write, ask, askn, append, trunc, dup, pop;
+        prin, print, add, sub, div, mul, mod, read, write, ask, askn, append, trunc, dup, pop;
     }
 }
